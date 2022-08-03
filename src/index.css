@@ -11,3 +11,67 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.upload-box {
+  font-size: 13px;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 2px 2px 3px rgb(20, 20, 20);
+  width: 300px;
+  outline: none;
+}
+
+::-webkit-file-upload-button {
+  color: white;
+  background: #0062d1;
+  padding: 15px;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 1px 0 1px 1px #9b9a9a;
+  outline: none;
+}
+
+::-webkit-file-upload-button:hover {
+  background: #0053b3
+}
+
+.button {
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+  border-radius: 12px;
+  border: 1px solid gray;
+  width: 100px;
+  background: #0062d1;
+   transition: all 0.5s;
+}
+
+.button:hover {
+  background: #00b800;
+  cursor: pointer; 
+}
+
+.button:active {
+  background-color: #018f01;
+  box-shadow: 0 px #666;
+  transform: translateY(4px);
+}
+
+.card-contains {
+  border: solid 1px gray;
+  padding: 7px;
+  margin-left: 3%;
+}
+
+.containt {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
