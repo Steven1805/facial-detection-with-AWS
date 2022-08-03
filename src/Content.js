@@ -7,9 +7,6 @@ import { fromCognitoIdentityPool } from '@aws-sdk/credential-provider-cognito-id
 import { FaceDetailsInfo } from './FaceDetailsInfo';
 
 
-//{readerURL ? <img src={readerURL}/> : <></>}
-//<FaceDetailsInfo detail={detail}/>
-
 function Content() {
 
     const REGION = "eu-west-2";
